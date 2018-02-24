@@ -1,3 +1,19 @@
-baseURL = "http://example.org/"
+#baseURL = "./"
+relativeURLs = true
+uglyurls = true
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Peter Dolan Lacey"
+theme = "hyde-x"
+#AuthorName = "Peter Dolan Lacey"
+HomepagePosts = 3
+
+[Author]
+    name = "Peter Dolan Lacey"
+
+[params]
+    tagline = "Thoughts about being more intentional about the use and creation of technology"
+
+[[menu.main]]
+    name = "Main"
+    identifier = "main"
+    url = "/index.html"
