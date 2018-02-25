@@ -11,9 +11,17 @@ HomepagePosts = 3
     name = "Peter Dolan Lacey"
 
 [params]
-    tagline = "Thoughts about being more intentional about the use and creation of technology"
+ #   tagline = "Thoughts about being more intentional about the use and creation of technology"
+    gravatarHash = "2b328be9942a4fbb7923a35984a85c08"
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about.html"
+    weight = 2
 
 [[menu.main]]
     name = "Main"
     identifier = "main"
     url = "/index.html"
+    weight = 1
